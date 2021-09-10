@@ -20,6 +20,7 @@ public class TwoSum {
                     p = nums[i] + nums[j];
 
                     if (p == target) {
+
                         x=new int[]{i,j};
                         return x;
                     } else {
